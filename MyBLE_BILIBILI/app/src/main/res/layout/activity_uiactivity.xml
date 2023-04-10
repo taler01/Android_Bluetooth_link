@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UIActivity">
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="90dp"
+        android:text="检测结果"
+        android:textSize="36dp"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="心率"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textSize="32dp"
+
+            />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="-310dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="血氧浓度"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:textSize="32dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:textSize="32dp"
+            android:text="收缩压"
+            android:gravity="center"
+            android:layout_marginLeft="-335dp"
+            android:layout_marginTop="160dp"
+            />
+
+        <TextView
+            android:id="@+id/text_3"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textSize="32dp"
+            android:gravity="center"
+            android:layout_marginTop="160dp"
+
+            />
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:textSize="32dp"
+            android:text="舒张压"
+            android:gravity="center"
+            android:layout_marginLeft="-310dp"
+            android:layout_marginTop="240dp"
+            />
+
+        <TextView
+            android:id="@+id/text_4"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textSize="32dp"
+            android:gravity="center"
+            android:layout_marginTop="240dp"
+            />
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:textSize="32dp"
+            android:text="脉率"
+            android:gravity="center"
+            android:layout_marginLeft="-310dp"
+            android:layout_marginTop="320dp"
+            />
+
+        <TextView
+            android:id="@+id/text_5"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textSize="32dp"
+            android:gravity="center"
+            android:layout_marginTop="320dp"
+            />
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:textSize="32dp"
+            android:text="温度"
+            android:gravity="center"
+            android:layout_marginLeft="-310dp"
+            android:layout_marginTop="400dp"
+            />
+
+        <TextView
+            android:id="@+id/text_6"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textSize="32dp"
+            android:gravity="center"
+            android:layout_marginTop="400dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

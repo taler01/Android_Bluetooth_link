@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_is_soupport_blue" android:title="是否支持蓝牙"/>
+    <item android:id="@+id/menu_is_turnon_blue" android:title="是否打开蓝牙"/>
+    <item android:id="@+id/menu_is_turnoff_blue" android:title="关闭蓝牙"/>
+    <item android:id="@+id/menu_is_scan_blue" android:title="扫描蓝牙"/>
+    <item android:id="@+id/menu_is_send_data" android:title="发送数据"/>
+
+</menu>
